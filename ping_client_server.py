@@ -6,7 +6,7 @@ import socket
 import sys
 import logging
 
-logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
+logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 
 
 def not_timeout(server_start_time):
